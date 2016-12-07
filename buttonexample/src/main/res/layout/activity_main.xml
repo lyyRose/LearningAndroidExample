@@ -18,4 +18,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btn_in_code" />
+
+    <Button
+        android:text="设置Button的状态列表"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_state_list" />
 </LinearLayout>
