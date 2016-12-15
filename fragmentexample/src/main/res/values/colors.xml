@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fd0026</color>
+    <color name="colorPrimaryDark">#fd0026</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorMenuNormal">#aaaaaa</color>
+    <color name="colorMenuHighlighted">#fd0026</color>
+</resources>
