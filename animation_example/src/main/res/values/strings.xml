@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">animation_example</string>
+    <string name="frame_note">
+        Frame Animation（AnimationDrawable对象）：帧动画，就像GIF图片，通过一系列Drawable依次显示来模拟动画的效果。
+        \n必须以 animation-list 为根元素，以 item 表示要轮换显示的图片，duration属性表示各项显示的时间。XML文件要放在/res/drawable目录下。
+    </string>
+</resources>

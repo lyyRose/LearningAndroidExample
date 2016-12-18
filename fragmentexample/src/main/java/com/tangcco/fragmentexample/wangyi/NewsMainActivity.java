@@ -92,6 +92,8 @@ public class NewsMainActivity extends AppCompatActivity {
         } else {
             transaction.hide(currentShowFragment).add(R.id.fl_content, fragment, fragmentTag).commitAllowingStateLoss(); // 隐藏当前的fragment，add下一个到Activity中
         }
+
+        currentShowFragment = fragment;
     }
 
 
