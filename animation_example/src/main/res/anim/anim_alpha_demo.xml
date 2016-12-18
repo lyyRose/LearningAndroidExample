@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration = "2000"
+    android:repeatMode="reverse"
+    android:repeatCount = "3">
+
+    <!--
+        duration 动画持续的时间 单位毫秒
+
+        repeatCount 设置重复次数 infinite 无限循环  或者是一个确定的数值
+
+        repeatMode  restart从头开始到结束   reverse 翻转模式  重结束到开始
+    -->
+
+
+    <!--
+        fromAlpha  起始时透明度
+        toAlpha    结束时透明度
+        0.0表示完全透明
+        1.0表示完全不透明
+        以上值取0.0-1.0之间的float数据类型的数字
+    -->
+    <alpha android:fromAlpha="0" android:toAlpha="1"
+        />
+
+</set>

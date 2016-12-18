@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:duration="5000"
+    android:fillAfter="true">
+    <!--
+    fillAfter 动画执行完之后保持最后的状态
+    -->
+
+
+    <!--
+
+    android:fromDegrees属性代表起始角度，浮点值，单位：度；
+    android:toDegrees属性代表结尾角度，浮点值，单位：度；
+
+
+    android:pivotX属性代表旋转中心相对于左顶点的X轴偏移量；
+    android:pivotY属性代表旋转中心相对于左顶点的Y轴偏移量；
+    左顶点（0，0）到旋转中心的距离其实就是旋转半径
+
+
+    这两个属性也有三种表示方式，
+    数字方式代表相对于自身左边缘的像素值；
+    num%方式代表相对于自身左边缘或顶边缘的百分比
+    num%p方式代表相对于父容器的左边缘或顶边缘的百分比。
+    -->
+
+
+    <rotate
+        android:fromDegrees="0" android:toDegrees="360"
+        android:pivotX="0%p" android:pivotY="50%p"
+        />
+
+
+</set>

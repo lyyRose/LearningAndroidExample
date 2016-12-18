@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:duration="1000"
+    android:interpolator="@android:anim/bounce_interpolator"
+    >
+
+    <!--
+    interpolator 插值器
+    插值器定义了动画变化的速率，提供不同的函数定义变化值相对于时间的变化规则，可以定义各种各样的非线性变化函数，比如加速、减速等
+    -->
+
+
+    <!--
+    android:fromXDelta属性代表起始X方向的位置，android:fromYScale属性代表起始Y方向上的位置
+    android:toXDelta代表结尾X方向上的位置，android:toYDelta属性代表结尾Y方向上的位置
+
+    以上四个属性都支持三种表示方式：浮点数、num%、num%p；
+    如果以浮点数字表示，代表相对自身原始位置的像素值；
+    如果以num%表示，代表相对于自己的百分比，比如toXDelta定义为100%就表示在X方向上移动自己的1倍距离；
+    如果以num%p表示，代表相对于父类组件的百分比。
+    -->
+
+    <translate
+        android:fromXDelta="0"  android:fromYDelta="0"
+        android:toXDelta="0" android:toYDelta="100%"/>
+
+</set>

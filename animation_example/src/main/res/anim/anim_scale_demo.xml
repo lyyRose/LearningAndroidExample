@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:duration="2000">
+
+    <!--
+    android:fromXScale属性代表起始的X方向上相对自身的缩放比例，浮点值，比如1.0代表自身无变化，0.5代表起始时缩小一倍，2.0代表放大一倍；
+    android:fromYScale属性代表起始的Y方向上相对自身的缩放比例，浮点值；
+
+    android:toXScale属性代表结尾的X方向上相对自身的缩放比例，浮点值；
+    android:toYScale属性代表结尾的Y方向上相对自身的缩放比例，浮点值；
+
+    android:pivotX属性代表缩放的中轴点X坐标，浮点值；
+    android:pivotY属性代表缩放的中轴点Y坐标，浮点值；
+    对于这两个属性，如果我们想表示中轴点为图像的中心，我们可以把两个属性值定义成0.5或者50%
+
+    -->
+
+
+    <scale
+        android:fromXScale="0" android:fromYScale="1"
+        android:toXScale="2" android:toYScale="2"
+        android:pivotX="0.5" android:pivotY="0.5"
+        />
+
+</set>

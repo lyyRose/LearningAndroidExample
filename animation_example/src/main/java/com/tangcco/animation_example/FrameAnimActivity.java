@@ -47,4 +47,14 @@ public class FrameAnimActivity extends AppCompatActivity {
 
 
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        //此时应该停止动画
+        if (frameAnimationDrawable.isRunning()){
+            frameAnimationDrawable.stop();
+        }
+
+    }
 }
