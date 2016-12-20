@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">dialog_example</string>
+    <string name="dialog_activity_theme_dialog_intro">
+        通过设置Activity主题 让activity以Dialog样式显示
+        \n\n在mainfest文件中配置activity的 theme
+        \n\n如果activity 继承自  android.app.Activity
+        \ntheme的值是@android:style/Theme.Dialog
+        \n\n如果继承自 android.support.v7.app.AppCompatActivity
+        \ntheme的值是@style/Theme.AppCompat.Dialog</string>
+
+    <string name="dialog_alert_dialog_intro">
+        AlertDialog 没有提供公开的构造方法所以无法直接创建AlertDialog的对象
+        \nAlertDialog定义了一个Builder内置类 用来创建AlertDialog对象
+    </string>
 </resources>

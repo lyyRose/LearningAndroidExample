@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_alert_dialog_intro" />
+
+    <Button
+        android:id="@+id/btn_dialog_normal_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Normal Dialog(普通对话框)" />
+
+    <Button
+        android:id="@+id/btn_dialog_list_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Dialog(显示列表)" />
+    <Button
+        android:id="@+id/btn_dialog_single_choice_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Single Choice Dialog(显示单选列表)" />
+    <Button
+        android:id="@+id/btn_dialog_multi_choice_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multi Choice Dialog(显示多选列表)" />
+    <Button
+        android:id="@+id/btn_dialog_custom_view_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom View Dialog(自定义显示View)" />
+    <Button
+        android:id="@+id/btn_dialog_cancelable_dismiss_listener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelable DismissListener(可取消 消失监听)" />
+</LinearLayout>
