@@ -18,4 +18,8 @@
         <item name="android:drawablePadding">5dp</item>
     </style>
 
+    <style name="tabTextAppearance">
+        <item name="android:textSize">30sp</item>
+    </style>
+
 </resources>

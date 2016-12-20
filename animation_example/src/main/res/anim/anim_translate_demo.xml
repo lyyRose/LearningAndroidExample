@@ -10,8 +10,11 @@
 
 
     <!--
-    android:fromXDelta属性代表起始X方向的位置，android:fromYScale属性代表起始Y方向上的位置
-    android:toXDelta代表结尾X方向上的位置，android:toYDelta属性代表结尾Y方向上的位置
+    android:fromXDelta属性代表起始X方向的位置，
+    android:fromYScale属性代表起始Y方向上的位置
+
+    android:toXDelta代表结尾X方向上的位置，
+    android:toYDelta属性代表结尾Y方向上的位置
 
     以上四个属性都支持三种表示方式：浮点数、num%、num%p；
     如果以浮点数字表示，代表相对自身原始位置的像素值；

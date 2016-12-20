@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tab = "http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ff0000"
     android:orientation="vertical">
+<!--
+1.添加命名空间  xmlns:tab = "http://schemas.android.com/apk/res-auto"
+     tab是自定义的 通过tab 可以取到 TabLayout  自定义的属性
 
+     tab:tabMode="scrollable"  scrollable ：tab标题可以滑动， fix 固定
+     tab:tabBackground="" TabLayout 背景 *不可以使用色值#XXXX 颜色要在colors.xml中定义
+     tab:tabIndicatorColor="" 选中标题下方指示条的颜色
+     tab:tabIndicatorHeight="" 选中标题下方指示条的高度
+     tab:tabTextAppearance=""  设置标题文字样式，主要用来改变字体大小 ，需要在styles.xml中定义一个样式
+-->
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tab_news_type_title"
         android:layout_width="match_parent"
+        tab:tabMode="scrollable"
+        tab:tabBackground="@color/colorTabBg"
+        tab:tabIndicatorColor="#00ff00"
+        tab:tabIndicatorHeight="10dp"
+        tab:tabTextColor="#ff00ff"
+        tab:tabSelectedTextColor="#ffff00"
+        tab:tabTextAppearance="@style/tabTextAppearance"
         android:layout_height="wrap_content">
 
 
