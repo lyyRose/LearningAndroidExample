@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android" android:duration="1000"
+    android:shareInterpolator="true"
     android:interpolator="@android:anim/bounce_interpolator"
     >
 
     <!--
-    interpolator 插值器
+    android:shareInterpolator="true" set 中所有动画是否共享一个插值器 默认为true
+
+
+    android:interpolato 插值器
     插值器定义了动画变化的速率，提供不同的函数定义变化值相对于时间的变化规则，可以定义各种各样的非线性变化函数，比如加速、减速等
+
+    当 shareInterpolator 为true时 不能单独为 set中声明的动画单独制定插值器
+    即 android:interpolator=""  属性 要在set标签中才生效 在  translate alpha rotate scale 标签中无效
+    shareInterpolator 为false 时 可以为 translate alpha rotate scale 单独指定插值器
     -->
 
 
